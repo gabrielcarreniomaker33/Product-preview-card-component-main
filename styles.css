@@ -18,7 +18,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* Estilos del Body */
 body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
@@ -29,22 +29,21 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+/* Estilos del main: */
 .container-main {
   width: 90%;
   max-width: 360px;
   background-color: var(--white);
   border-radius: 10px;
-  /*border: solid red;*/
   overflow: hidden;
 }
-
+/* Estilos de img */
 .container-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
+/* Estilos del titulo secundario */
 .title-second {
   text-transform: uppercase;
   font-weight: 500;
@@ -52,29 +51,29 @@ body {
   letter-spacing: 3px;
   color: var(--dark-grayish-blue);
 }
-
+/* estilos del contenedor de datos */
 .container-data {
   margin: 1rem;
   gap: 1rem;
   display: flex;
   flex-direction: column;
 }
-
+/* estilos del titulo principal */
 .title-main {
   font-weight: 800;
   font-size: 2rem;
   font-family: var(--font-family-secondary-fraunces);
   line-height: 1;
 }
-
+/* estilos del texto principal */
 .text {
   font-weight: 500;
   font-size: 16px;
   color: var(--dark-grayish-blue);
 }
 
+/* estilos del contenedor del los datos del precio */
 .container-price {
-  /*border: solid red;*/
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -93,6 +92,7 @@ body {
   font-weight: 500;
 }
 
+/* estilos del boton */
 .btn {
   background-color: var(--dark-cyan);
   color: var(--white);
